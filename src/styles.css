@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom right,white, white, rgb(128, 25, 25));
+    background: url(background.jpg) no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
