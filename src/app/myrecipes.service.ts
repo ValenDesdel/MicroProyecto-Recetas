@@ -1590,7 +1590,7 @@ export class MyrecipesService {
     ]
   }
   
-  obtenerReceta(){
+  obtener(){
     return this.data;
   }
 

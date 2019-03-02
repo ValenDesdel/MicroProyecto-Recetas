@@ -10,7 +10,14 @@
 
 
 
-      
+      <div class="card" *ngFor= "let beta of recipes.recipes">
+          <img src="{{beta.image}}" style="width:100%">
+          <h1>{{beta.name}}</h1>
+          <p>Ingredientes</p>
+          <p>Preparacion</p>
+          
+        </div>
+
     
 
 </html>

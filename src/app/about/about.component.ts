@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
   recipes:any;
 
   constructor(private service: MyrecipesService) { 
-    this.recipes= this.service.obtenerReceta();
+    this.recipes= this.service.obtener();
   }
 
   ngOnInit() {
