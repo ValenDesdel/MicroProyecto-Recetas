@@ -9,4 +9,19 @@
 <app-header></app-header>
 
 <div class=logo></div>
+
+<div class="flip-card" *ngFor= "let beta of recipes.recipes">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="{{beta.image}}" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 [routerLink]="['/about']">{{beta.name}}</h1> 
+      <p>{{beta.description}}</p> 
+      <p>{{beta.tag}}</p>
+    </div>
+  </div>
+</div>
+  
+
 </html>
